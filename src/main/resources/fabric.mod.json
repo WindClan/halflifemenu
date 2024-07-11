@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "halflifemenu",
+  "version": "${version}",
+  "name": "Half-Life Menu",
+  "description": "This brings that derpy pre-25th menu to Minecraft",
+  "authors": [
+    "Featherwhisker"
+  ],
+  "contact": {
+    "repo": "https://github.com/WindClam/halflifemenu"
+  },
+  "license": "MIT",
+  "icon": "assets/halflifemenu/icon.png",
+  "environment": "client",
+  "mixins": [
+    "halflifemenu.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "${minecraft_version}"
+  }
+}
