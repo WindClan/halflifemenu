@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "quilt_loader": {
+    "group": "${group}",
+    "id": "halflifemenu",
+    "version": "${version}",
+    "metadata": {
+      "name": "Half-Life Menu",
+      "description": "This brings that derpy pre-25th menu to Minecraft",
+      "contributors": {
+        "Me!": "Featherwhisker"
+      },
+      "icon": "assets/halflifemenu/icon.png"
+    },
+    "intermediate_mappings": "net.fabricmc:intermediary",
+    "depends": [
+      {
+        "id": "quilt_loader",
+        "version": "*"
+      },
+      {
+        "id": "quilted_fabric_api",
+        "version": "*"
+      },
+      {
+        "id": "minecraft",
+        "version": ">=1.21"
+      }
+    ]
+  },
+  "mixin": [
+    "halflifemenu.mixins.json"
+  ]
+}

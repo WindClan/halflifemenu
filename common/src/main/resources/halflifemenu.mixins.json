@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.featherwhisker.halflifemenu.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "RotatingCubeMapRendererMixin",
+    "SplashOverlayMixin",
+    "TitleScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

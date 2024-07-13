@@ -1,0 +1,31 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "halflifemenu"
+version = "${version}"
+displayName = "Half-Life Menu"
+authors = "Featherwhisker"
+description = '''
+This brings that derpy pre-25th menu to Minecraft
+'''
+logoFile = "assets/halflifemenu/icon.png"
+
+[[dependencies.halflifemenu]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.halflifemenu]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[mixins]]
+config = "halflifemenu.mixins.json"
